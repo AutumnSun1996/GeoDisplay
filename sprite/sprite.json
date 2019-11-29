@@ -1,0 +1,154 @@
+{
+  "triangle-red": {
+    "width": 32,
+    "height": 32,
+    "x": 0,
+    "y": 0,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "star-green": {
+    "width": 32,
+    "height": 32,
+    "x": 32,
+    "y": 0,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "square-yellow": {
+    "width": 32,
+    "height": 32,
+    "x": 64,
+    "y": 0,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line1111": {
+    "width": 32,
+    "height": 32,
+    "x": 96,
+    "y": 0,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line1110": {
+    "width": 32,
+    "height": 32,
+    "x": 0,
+    "y": 32,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line1101": {
+    "width": 32,
+    "height": 32,
+    "x": 32,
+    "y": 32,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line1100": {
+    "width": 32,
+    "height": 32,
+    "x": 64,
+    "y": 32,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line1011": {
+    "width": 32,
+    "height": 32,
+    "x": 96,
+    "y": 32,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line1010": {
+    "width": 32,
+    "height": 32,
+    "x": 0,
+    "y": 64,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line1001": {
+    "width": 32,
+    "height": 32,
+    "x": 32,
+    "y": 64,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line1000": {
+    "width": 32,
+    "height": 32,
+    "x": 64,
+    "y": 64,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line0111": {
+    "width": 32,
+    "height": 32,
+    "x": 96,
+    "y": 64,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line0110": {
+    "width": 32,
+    "height": 32,
+    "x": 0,
+    "y": 96,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line0101": {
+    "width": 32,
+    "height": 32,
+    "x": 32,
+    "y": 96,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line0100": {
+    "width": 32,
+    "height": 32,
+    "x": 64,
+    "y": 96,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line0011": {
+    "width": 32,
+    "height": 32,
+    "x": 96,
+    "y": 96,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line0010": {
+    "width": 32,
+    "height": 32,
+    "x": 0,
+    "y": 128,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "fill-line0001": {
+    "width": 32,
+    "height": 32,
+    "x": 32,
+    "y": 128,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "circle-blue": {
+    "width": 32,
+    "height": 32,
+    "x": 64,
+    "y": 128,
+    "pixelRatio": 2,
+    "visible": true
+  }
+}

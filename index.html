@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>地图展示</title>
+    <!--jquery 和 jquery plugin-->
+    <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
+
+    <!--mapbox 库-->
+    <script src='lib/mapbox-gl.js'></script>
+    <link href='lib/mapbox-gl.css' rel='stylesheet' />
+    <!--css配置-->
+    <link href='css/common.css' rel='stylesheet' />
+
+    <title>地图展示</title>
+</head>
+
+<body>
+    <div id='map'></div>
+    <div class="banner" style="top: 10px; left: 10px; width: 80px; height: 100px; margin: 0px">
+        <label for="seperator">分隔符</label>
+        <input style="width: 70px" type="text" name="seperator" id="seperator" value=",">
+        <label for="prefix">前缀</label>
+        <input style="width: 70px" type="text" name="prefix" id="prefix" value="">
+    </div>
+    <div class="banner" style="top: 10px; left: 500px; margin: 0px; padding: 5px">
+        使用h显示/隐藏悬浮信息<br>
+        左键拖动，右键旋转、倾斜，滚轮放大、缩小<br>
+		使用q/e旋转地图, 按下Shift微调<br>
+		点击地图上任意点位后坐标将被复制到剪贴板<br>
+    </div>
+    <textarea class="banner" id="copyArea" style="top: 120px; left: 10px; width: 180px; height: 40px; margin: 0px"></textarea>
+
+    <div class="banner" style="top: 170px; left: 10px; width: 180px; height: 70px; margin: 0px">
+        <label for="source">数据源</label><br>
+        <input style="width: 170px" type="text" name="source" id="source" value="data/sample.geojson">
+        <br>
+        <button style="width: 70px" onclick="updateSource();">更新</button>
+    </div>
+
+    <script type="text/javascript" src="js/layers.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
