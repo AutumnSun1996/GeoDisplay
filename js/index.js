@@ -56,7 +56,7 @@ map.on('click', (e) => {
     if (!popup.isOpen()) {
         popup.addTo(map);
     }
-    console.log(e.lngLat, features, ids, names);
+    console.log(e.lngLat, features);
 });
 
 function findCoordinate(feature) {
