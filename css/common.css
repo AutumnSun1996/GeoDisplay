@@ -10,7 +10,7 @@
 
 .mapboxgl-popup-content, .mapboxgl-popup-tip {
 	pointer-events: none;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 .mapboxgl-popup-content {

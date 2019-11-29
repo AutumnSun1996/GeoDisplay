@@ -12,7 +12,7 @@ let layers = [
     'source': 'Source',
     'paint': {
       'fill-opacity': 0.3,
-      'fill-pattern': "fill-line1000",
+      'fill-color': "#66CCFF",
     },
     'filter': ["match", ["geometry-type"], ["Polygon", "MultiPolygon"], true, false]
   },
@@ -21,7 +21,7 @@ let layers = [
     'type': 'line',
     'source': 'Source',
     'paint': {
-      'line-color': '#999',
+      'line-color': '#999999',
       'line-width': 1
     }
   },
@@ -30,8 +30,10 @@ let layers = [
     'type': 'circle',
     'source': 'Source',
     'paint': {
+      'circle-opacity': 0.3,
       'circle-color': '#880033',
       'circle-radius': 5
     },
+    'filter': ["match", ["geometry-type"], ["Point"], true, false],
   },
 ]
